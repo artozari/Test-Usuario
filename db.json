@@ -20,7 +20,7 @@
       "password": "guest",
       "role": 1,
       "profileId": 3
-  ],
+    },
   "roles": {
     "1": {
       "permissions": ["read", "write", "delete"]
@@ -32,5 +32,6 @@
       "permissions": ["read"]
     }
   }
+  ]
 }
 
