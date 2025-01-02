@@ -2,35 +2,35 @@
   "users": [
     {
       "id": 1,
-      "username": "admin",
+      "email": "admin",
       "password": "admin",
-      "role": "admin",
-      "token": "token-1-admin"
+      "role": 1,
+      "profileId": 1
     },
     {
       "id": 2,
-      "username": "user",
+      "email": "user",
       "password": "user",
-      "role": "user",
-      "token": "token-2-user"
+      "role": 1,
+      "profileId": 2
     },
     {
       "id": 3,
-      "username": "guest",
+      "email": "guest",
       "password": "guest",
-      "role": "guest",
-      "token": "token-3-guest"
-    }
+      "role": 1,
+      "profileId": 3
   ],
   "roles": {
-    "admin": {
+    "1": {
       "permissions": ["read", "write", "delete"]
     },
-    "user": {
+    "2": {
       "permissions": ["read", "write"]
     },
-    "guest": {
+    "3": {
       "permissions": ["read"]
     }
   }
 }
+
