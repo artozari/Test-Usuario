@@ -20,7 +20,7 @@
       "password": "guest",
       "role": 1,
       "profileId": 3
-    },
+    }
   ],
   "roles": {
     "1": {
